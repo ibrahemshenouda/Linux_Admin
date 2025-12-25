@@ -28,10 +28,13 @@ A simple automation project that demonstrates how to schedule a Python script us
    */5 * * * *  | Run every 5 minutes. 
    @reboot`     | Run once at system startup. 
 
- 1. Open the crontab editor:
-   ```bash
-   crontab -e
+```
 
- 1. Write your line... (ex):
-   ```bash
+1.**Open the crontab :**
+   ```
+   crontab -e
+```
+2.**Write your line... (ex):**
+   ```
     */2 * * * * /usr/bin/python3 /home/ibrahimshnouda/DATA/Embinux/Module_01/02_Linux_Admin/Session_02/current_time.py
+```
