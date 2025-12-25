@@ -9,13 +9,23 @@ A simple automation project that demonstrates how to schedule a Python script us
 ---
 
 ## How to Use
-  *  *  *  *  *  command_to_execute
-  │  │  │  │  │
-  │  │  │  │  └── Day of Week (0 - 6) (0 is Sunday)
-  │  │  │  └───── Month (1 - 12)
-  │  │  └──────── Day of Month (1 - 31)
-  │  └─────────── Hour (0 - 23)
-  └────────────── Minute (0 - 59)
+```text
+  * * * * * /path/to/command_or_script
+  │ │ │ │ │
+  │ │ │ │ └── Day of Week (0 - 6) (Sunday=0 or 7)
+  │ │ │ └──── Month (1 - 12)
+  │ │ └────── Day of Month (1 - 31)
+  │ └──────── Hour (0 - 23)
+  └────────── Minute (0 - 59)
+
+| Schedule | Meaning |
+| :--- | :--- |
+| `* * * * *` | Run every minute. |
+| `0 * * * *` | Run at the start of every hour (e.g., 1:00, 2:00). |
+| `0 0 * * *` | Run once a day at midnight. |
+| `0 9 * * 1` | Run at 9:00 AM every Monday. |
+| `*/5 * * * *` | Run every 5 minutes. |
+| `@reboot` | Run once at system startup. |
 
 1. Open the crontab editor:
    ```bash
