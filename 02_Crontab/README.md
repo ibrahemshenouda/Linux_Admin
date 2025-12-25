@@ -10,7 +10,7 @@ A simple automation project that demonstrates how to schedule a Python script us
 
 ## How to Use
 ```text
-  * * * * * /path/to/command_or_script
+  * * * * * /path/to/command_or_script_to_execute
   │ │ │ │ │
   │ │ │ │ └── Day of Week (0 - 6) (Sunday=0 or 7)
   │ │ │ └──── Month (1 - 12)
@@ -18,19 +18,20 @@ A simple automation project that demonstrates how to schedule a Python script us
   │ └──────── Hour (0 - 23)
   └────────── Minute (0 - 59)
 
-| Schedule | Meaning |
-| :--- | :--- |
-| `* * * * *` | Run every minute. |
-| `0 * * * *` | Run at the start of every hour (e.g., 1:00, 2:00). |
-| `0 0 * * *` | Run once a day at midnight. |
-| `0 9 * * 1` | Run at 9:00 AM every Monday. |
-| `*/5 * * * *` | Run every 5 minutes. |
-| `@reboot` | Run once at system startup. |
+  Examples:
 
-1. Open the crontab editor:
+  Schedule      | Meaning 
+   * * * * *    | Run every minute. 
+   0 * * * *    | Run at the start of every hour (e.g., 1:00, 2:00). 
+   0 0 * * *    | Run once a day at midnight. 
+   0 9 * * 1    | Run at 9:00 AM every Monday. 
+   */5 * * * *  | Run every 5 minutes. 
+   @reboot`     | Run once at system startup. 
+
+ 1. Open the crontab editor:
    ```bash
    crontab -e
 
-1. Write your command:
+ 1. Write your line... (ex):
    ```bash
     */2 * * * * /usr/bin/python3 /home/ibrahimshnouda/DATA/Embinux/Module_01/02_Linux_Admin/Session_02/current_time.py
