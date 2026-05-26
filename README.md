@@ -6,45 +6,47 @@ Welcome to the **Linux Administration and Systems Programming** learning reposit
 
 ## 🌟 Repository Overview & Architecture
 
-The content is organized into two distinct sections to balance theoretical system architecture with practical command-line and programming skills:
+The content is organized into three distinct sections to balance original notes, theoretical system architecture, and practical coding labs:
 
-1.  **Programming & Automation Labs (Directories `01` - `02`)**: Contains source code files written in C, C++, and Python implementing system programming tasks and cron job automation. Each folder contains a local `README.md` with instructions on compilation, execution, and API details.
-2.  **Theoretical & Administrative Stacks (Directories `03` - `08`)**: Derived from curated lectures and study materials. Each stack contains:
-    *   `writen notes/`: The original scanned handwritten notes and diagrams showing logic flows.
-    *   `study guide/`: A highly detailed, transcribed Markdown study guide featuring text explanations, conceptual tables, and **Mermaid architecture diagrams**.
+1.  **Written Notes Archive (`00_Writen_Notes/`)**: Contains consolidated PDF files of the original scanned handwritten lecture notes and diagrams.
+2.  **Programming & Automation Labs (Directories `01` - `02`)**: Contains source code files written in C, C++, and Python implementing system programming tasks and cron job automation.
+3.  **Theoretical & Administrative Stacks (Directories `03` - `08`)**: The core study guides. Each directory contains a comprehensive `README.md` study guide directly inside the folder, complete with explanations, tables, and **Mermaid architecture diagrams**.
 
 ---
 
 ## 📅 Interactive Table of Contents
 
-| Directory / Stack | Focus Area | Core Concepts Covered | Quick Links |
+| Directory / Stack | Focus Area | Original Handwritten Notes | Theoretical Study Guide |
 | :--- | :--- | :--- | :--- |
-| [📁 **01_System_Calls**](file:///home/ibrahimshnouda/GitHub/Linux_Admin/01_System_Calls) | **Systems Programming** | POSIX file APIs, process spawning (`fork`/`exec`), parent-child synchronization, and terminal ioctl control. | [📂 Code Directory](file:///home/ibrahimshnouda/GitHub/Linux_Admin/01_System_Calls) |
-| [📁 **02_Crontab**](file:///home/ibrahimshnouda/GitHub/Linux_Admin/02_Crontab) | **Task Automation** | Background scheduling daemon, crontab expression layouts, and automatic logger scripting. | [📂 Automation Directory](file:///home/ibrahimshnouda/GitHub/Linux_Admin/02_Crontab) <br> [📝 README](file:///home/ibrahimshnouda/GitHub/Linux_Admin/02_Crontab/README.md) |
-| [📁 **03_Embedded_Linux_Architecture**](file:///home/ibrahimshnouda/GitHub/Linux_Admin/03_Embedded_Linux_Architecture) | **OS & Kernel Foundations** | User Space vs Kernel Space (Ring 0 vs 3), bare-metal comparison, and the 5-stage booting sequence. | [📝 Study Guide](file:///home/ibrahimshnouda/GitHub/Linux_Admin/03_Embedded_Linux_Architecture/study%20guide/README.md) <br> [📷 Written Notes](file:///home/ibrahimshnouda/GitHub/Linux_Admin/03_Embedded_Linux_Architecture/writen%20notes) |
-| [📁 **04_File_System_Storage**](file:///home/ibrahimshnouda/GitHub/Linux_Admin/04_File_System_Storage) | **Storage Infrastructure** | VFS layers, partition tables (`fdisk`), Ext2/3/4 journaling file systems, partition formatting, and mounting. | [📝 Study Guide](file:///home/ibrahimshnouda/GitHub/Linux_Admin/04_File_System_Storage/study%20guide/README.md) <br> [📷 Written Notes](file:///home/ibrahimshnouda/GitHub/Linux_Admin/04_File_System_Storage/writen%20notes) |
-| [📁 **05_Process_Management**](file:///home/ibrahimshnouda/GitHub/Linux_Admin/05_Process_Management) | **Runtime Execution** | Process lifecycle states (Running, Sleeping, Zombie), priorities (Nice/Renice), foregrounding, and signal handling. | [📝 Study Guide](file:///home/ibrahimshnouda/GitHub/Linux_Admin/05_Process_Management/study%20guide/README.md) <br> [📷 Written Notes](file:///home/ibrahimshnouda/GitHub/Linux_Admin/05_Process_Management/writen%20notes) |
-| [📁 **06_Networking_Diagnostics**](file:///home/ibrahimshnouda/GitHub/Linux_Admin/06_Networking_Diagnostics) | **Network Stack** | OSI/TCP-IP layers, TCP/UDP features, Ethernet frame structures, network encapsulation, and routing. | [📝 Study Guide](file:///home/ibrahimshnouda/GitHub/Linux_Admin/06_Networking_Diagnostics/study%20guide/README.md) <br> [📷 Written Notes](file:///home/ibrahimshnouda/GitHub/Linux_Admin/06_Networking_Diagnostics/writen%20notes) |
-| [📁 **07_User_Group_Management**](file:///home/ibrahimshnouda/GitHub/Linux_Admin/07_User_Group_Management) | **Security & Access Control** | User classifications (root/system/normal), permission triplets (`rwx`), numeric vs symbolic chmod, and ownership. | [📝 Study Guide](file:///home/ibrahimshnouda/GitHub/Linux_Admin/07_User_Group_Management/study%20guide/README.md) <br> [📷 Written Notes](file:///home/ibrahimshnouda/GitHub/Linux_Admin/07_User_Group_Management/writen%20notes) |
-| [📁 **08_Terminal_Bash_Scripting**](file:///home/ibrahimshnouda/GitHub/Linux_Admin/08_Terminal_Bash_Scripting) | **Shell Customization** | Terminal emulators vs shells, command execution lifecycle, aliases, positional parameters, and standard I/O redirection. | [📝 Study Guide](file:///home/ibrahimshnouda/GitHub/Linux_Admin/08_Terminal_Bash_Scripting/study%20guide/README.md) <br> [📷 Written Notes](file:///home/ibrahimshnouda/GitHub/Linux_Admin/08_Terminal_Bash_Scripting/writen%20notes) |
+| **01. System Calls** | **Systems Programming** | *N/A (Code Lab)* | [📁 01_System_Calls](file:///home/ibrahimshnouda/GitHub/Linux_Admin/01_System_Calls) |
+| **02. Crontab** | **Task Automation** | *N/A (Code Lab)* | [📁 02_Crontab](file:///home/ibrahimshnouda/GitHub/Linux_Admin/02_Crontab) <br> [📝 README](file:///home/ibrahimshnouda/GitHub/Linux_Admin/02_Crontab/README.md) |
+| **03. Embedded Linux & Architecture** | **OS & Kernel Foundations** | [📄 01_Introduction.pdf](file:///home/ibrahimshnouda/GitHub/Linux_Admin/00_Writen_Notes/01_Introduction.pdf) | [📝 README Guide](file:///home/ibrahimshnouda/GitHub/Linux_Admin/03_Embedded_Linux_Architecture/README.md) |
+| **04. File System & Storage** | **Storage Infrastructure** | [📄 02_File_System_Stack.pdf](file:///home/ibrahimshnouda/GitHub/Linux_Admin/00_Writen_Notes/02_File_System_Stack.pdf) | [📝 README Guide](file:///home/ibrahimshnouda/GitHub/Linux_Admin/04_File_System_Storage/README.md) |
+| **05. Process Management** | **Runtime Execution** | [📄 03_Process_Management_Stack.pdf](file:///home/ibrahimshnouda/GitHub/Linux_Admin/00_Writen_Notes/03_Process_Management_Stack.pdf) | [📝 README Guide](file:///home/ibrahimshnouda/GitHub/Linux_Admin/05_Process_Management/README.md) |
+| **06. Networking & Diagnostics** | **Network Stack** | [📄 04_Network_Stack.pdf](file:///home/ibrahimshnouda/GitHub/Linux_Admin/00_Writen_Notes/04_Network_Stack.pdf) | [📝 README Guide](file:///home/ibrahimshnouda/GitHub/Linux_Admin/06_Networking_Diagnostics/README.md) |
+| **07. User & Group Management** | **Security & Access Control** | [📄 05_User_Management_Stack.pdf](file:///home/ibrahimshnouda/GitHub/Linux_Admin/00_Writen_Notes/05_User_Management_Stack.pdf) | [📝 README Guide](file:///home/ibrahimshnouda/GitHub/Linux_Admin/07_User_Group_Management/README.md) |
+| **08. Terminal & Bash Scripting** | **Shell Customization** | [📄 06_Terminal&Bash_Scripting.pdf](file:///home/ibrahimshnouda/GitHub/Linux_Admin/00_Writen_Notes/06_Terminal%26Bash_Scripting.pdf) | [📝 README Guide](file:///home/ibrahimshnouda/GitHub/Linux_Admin/08_Terminal_Bash_Scripting/README.md) |
 
 ---
 
 ## 📖 Curriculum Breakdown
 
-### 1. Systems Programming & Basic Tools
+### 1. Written Notes Archive
+*   **00_Writen_Notes**: Features 6 topic-specific PDF compilations of original handwritten notes containing structural diagrams, logical maps, and quick references.
+
+### 2. Systems Programming & Basic Tools
 *   **01_System_Calls**: Contains subdirectories detailing code files for:
-    *   *File Management*: Demonstrating standard low-level I/O calls (`open`, `read`, `write`, `lseek`, `close`) in C++ alongside equivalent high-level files manipulation in Python.
+    *   *File Management*: Demonstrating standard low-level I/O calls (`open`, `read`, `write`, `lseek`, `close`) in C++ alongside equivalent high-level file manipulation in Python.
     *   *Process Control*: Coding templates implementing process spawning (`fork`), loading binary images (`execvp`), and parent synchronization (`wait`/`exit`).
     *   *Disk Management*: Harnessing the generic `ioctl` driver control system call to query terminal row/column window geometry properties.
 *   **02_Crontab**: Guides on scheduling scripts for automated background processes. The directory features a Python script logging timestamps that triggers automatically via cron jobs.
 
-### 2. Architecture & Operating System Foundations
-*   **03_Embedded_Linux_Architecture**: Compares bare-metal designs to OS abstractions. Details the CPU Rings execution permissions, user space safety boundaries, kernel mode systems (scheduler, VFS, drivers), and details the boot chain phases (ROM Boot Code -> SPL -> U-Boot -> Kernel -> Init).
+### 3. Architecture & Operating System Foundations
+*   **03_Embedded_Linux_Architecture**: Compares bare-metal designs to OS abstractions. Details CPU Ring execution permissions, user space safety boundaries, kernel mode systems (scheduler, VFS, drivers), and the boot chain phases (ROM Boot Code -> SPL -> U-Boot -> Kernel -> Init).
 *   **04_File_System_Storage**: Traces how logical files are mapped to hardware block sectors. Discusses partitioning tables, comparing raw formats (Ext2, Ext3, Ext4, FAT), journaling for recovery, and mounting device pathways.
 *   **05_Process_Management**: Details how the scheduler maps tasks. Explains PID metadata, process states, multitasking using foreground/background triggers (`&`, `jobs`, `fg`, `bg`), priorities (Nice/Renice), and process control signals.
 
-### 3. Network Administration & Multi-User Security
+### 4. Network Administration & Multi-User Security
 *   **06_Networking_Diagnostics**: Reviews protocol mappings across the network layers. Deep-dives into TCP connection mechanisms vs UDP speed, data encapsulation flows, Ethernet frame fields, routing subnets, and diagnosing networks using command tools.
 *   **07_User_Group_Management**: Details security partitions in multi-user settings. Details user structures, shadow configuration databases, file/directory permission strings (`rwx` meanings), and user privileges manipulation.
 *   **08_Terminal_Bash_Scripting**: Explores terminal emulators and interactive shells. Teaches shell alias setups, documentation helpers (`tldr`), shell script arguments, and redirection channels (stdin/stdout/stderr redirections, `/dev/null`).
