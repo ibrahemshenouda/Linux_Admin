@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_System_Calls/03_Disk_Management_syscalls/README.md",
+                "file": "08_Terminal_Bash_Scripting/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_System_Calls/03_Disk_Management_syscalls/README.md",
+                "file": "08_Terminal_Bash_Scripting/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_System_Calls/03_Disk_Management_syscalls/README.md",
+                "file": "08_Terminal_Bash_Scripting/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_System_Calls/03_Disk_Management_syscalls/README.md",
+                "file": "08_Terminal_Bash_Scripting/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -183,14 +183,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "2ed13d9e6109a36d",
+  "active": "45b761e25ae91264",
   "lastOpenFiles": [
-    "08_Terminal_Bash_Scripting/README.md.md",
-    "07_User_Group_Management/README.md.md",
-    "06_Networking_Diagnostics/README.md.md",
-    "05_Process_Management/README.md.md",
-    "04_File_System_Storage/README.md.md",
-    "03_Embedded_Linux_Architecture/README.md.md",
+    "07_User_Group_Management/README.md",
+    "06_Networking_Diagnostics/README.md",
+    "05_Process_Management/README.md",
+    "04_File_System_Storage/README.md",
+    "03_Embedded_Linux_Architecture/README.md",
+    "01_System_Calls/01_File_Management_syscalls/README.md",
+    "01_System_Calls/03_Disk_Management_syscalls/README.md",
+    "08_Terminal_Bash_Scripting/README.md",
     "00_Writen_Notes/06_Terminal&Bash_Scripting.pdf",
     "00_Writen_Notes/05_User_Management_Stack.pdf",
     "00_Writen_Notes/04_Network_Stack.pdf",
@@ -199,8 +201,6 @@
     "00_Writen_Notes/01_Introduction.pdf",
     "00_Writen_Notes",
     "01_System_Calls/02_Process_Control_syscalls/README.md",
-    "01_System_Calls/01_File_Management_syscalls/README.md",
-    "01_System_Calls/03_Disk_Management_syscalls/README.md",
     "08_Terminal_Bash_Scripting/study guide/README.md.md",
     "07_User_Group_Management/study guide/README.md.md",
     "06_Networking_Diagnostics/study guide/README.md.md",
